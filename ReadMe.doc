@@ -1,1 +1,57 @@
+# Project Problem
+A company wants to know about the upcoming claim of from policyholders. They decide to make a program using machine learning approach to predict incurance claim.
+The company keep the data name in the dataset for the privacy issue.
 
+The dataset is made with 59 features and 595212 instances but its highly imbalanced.
+
+The dataset has unknown values
+
+# Approach
+
+Explore the dataset
+
+Clean the dataset and imputing in some cases
+
+Feature scaling
+
+Balance the dataset
+
+Use feature selection technique or pca
+
+Train and test split
+
+Model training
+
+Model performance
+
+# Outcome
+
+train accuracy:  0.9809
+validation accuracy:  0.9789
+test accuracy:  0.9791
+auc score:  0.9903
+
+# Methodology
+
+Exploratory data analysis
+
+Data preprocessing
+
+Feature scaling
+
+Balance data
+
+Feature selection
+
+Train and test split
+
+Model training
+
+Model performance
+
+Train: 70%
+Validation: 15%
+Test: 15%
+Data cleaning
+- drop column ID
+- drop unknown values
